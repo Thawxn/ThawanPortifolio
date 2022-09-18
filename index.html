@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css"/>
+    <title>Thawan Marques</title>
+    <link href="https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!--Cabeçalho do site-->
+    <header>
+        <div class="header-body">
+            <div class="header-icons">
+                <a class="header-icon--github" href="https://github.com/Thawxn"><img src="imagens/github.png"/></a>
+                <a class="header-icon--instagram" href="https://www.instagram.com/thawxn/"><img src="imagens/instagram.png"/></a>
+                <a class="header-icon--linkedin" href="https://www.linkedin.com/in/thawan-marques-21948624a/"><img src="imagens/linkedin.png"/></a>
+                <a calss="header-icon--twitter" href="https://twitter.com/thawxn0"><img src="imagens/twitter.png"/></a>
+            </div>
+            <div class="header-desc">
+                <div class="header-desc--img">
+                    <img src="imagens/Thawan.jpg" alt="foto de Thawan"/>
+                </div>
+                <div class="header-desc--tittle">
+                    <h1>
+                        Thawan Marques
+                        <p>Programador Backend Junior</p>
+                    </h1>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <!--Conteúdo pricipal do site-->
+    <main>
+        <section>
+            <div class="section-body">
+                <div class="section-left">
+                    <nav>
+                        <ul>
+                            <li class="active" id="active-sobre" onclick="menuSobre()">Sobre</li>
+                            <li id="active-projetos" onclick="menuProjetos()">Projetos</li>
+                            <li id="active-certificado" onclick="menuCertificado()">Certificado</li>
+                        </ul>
+
+                        <a>
+                            <h3>Contato:</h3>
+                            <p>
+                            <img src="imagens/gmail.png"/> thawan28032001@gmail.com
+                            </p>
+                        </a>
+                    </nav>
+                </div>
+                <div id="section-rigth--sobre">
+                    <div class="sobre-descs">
+                        <div class="sobre-desc">
+                            <h1>Desenvolvedor Backend</h1>
+                            <p>
+                                
+                                <br/> <br/>
+                                Com foco na mudança de área profissional, passei a estudar programação, uma área que sempre tive interesse, com foco em desenvolvimento web. Venho aprendendo coisas novas e me desafiando a cada dia.
+                                <br/> <br/>
+                                Atualmente, possuo conhecimento em JavaScript, MySQL, Express, versionamento Git e NodeJS pela Udemy e continuo em busca de novas descobertas, visto que gosto muito de aprender e conhecimento nunca é demais.
+                                <br/> <br/>
+                                Meu interesse é ter a minha primeira oportunidade na área da programação, e assim poder evoluir, crescer na área, e mostrar o quão posso ser útil na sua empresa.
+                                <br/> <br/>
+                                <strong>Vamos trabalhar juntos?</strong>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div id="section-rigth--projetos">
+                    <div class="projeto-1" >
+                        <div class="pj1-txt">
+                            Projeto simples, feito para por em pratica os conhecimento em JavaScript
+                            Site que interage com o sistema no qual de acordo a hora 
+                            no momento disponibiliza uma saudação específica mudando o 
+                            fundo e a foto de acordo (Bom dia, Boa tarde, Boa noite, Boa madrugada).
+                            
+                        </div>
+                        <div class="pj1-img">
+                            <div class="pj1-dsc">
+                                <p>Visualiza código no  <a href="https://github.com/Thawxn/BomDia">Github</a></p>
+                            </div>
+                            <img src="imagens/BomDia.png" alt="Primeiro projeto" />
+                        </div>
+                    </div>
+                    <div class="projeto-2">
+                        <div class="pj2-img">
+                            <div class="pj2-dsc">
+                                <p>Visualiza código no <a href="https://github.com/Thawxn/Tabuada">Github</a></p>
+                            </div>
+                            <img src="imagens/Tabuada.png" alt="Segundo projeto" />
+                        </div>
+                        <div class="pj2-txt">
+                            Segundo Projeto, também simples, onde você digita um número e mostra a tabuada toda
+                            em tres tipos, Subtração, Adição e Multiplicação.
+                            
+                            
+                        </div>
+                       
+                    </div>
+                    <div class="projeto-3">
+                        <div class="pj1-txt">
+                            Projeto que simula um fórum com objetivo de me aprofundar em Node.JS e Express, 
+                            a utilizar o Express com MySQL, usar o Node com HTML e CSS, e usar também o básico 
+                            do Bootstrap. O projeto é bem simples, estilo Yahoo resposta, onde você pode 
+                            perguntar e responder.
+                            
+                        </div>
+                        <div class="pj1-img">
+                            <div class="pj1-dsc">
+                                <p>Visualiza código no  <a href="https://github.com/Thawxn/AnalisadorDeNumero">Github</a></p>
+                            </div>
+                            <img src="imagens/GuiaPergunta.png" alt="Terceiro projeto" />
+                        </div>
+                    </div>
+                    <div class="projeto-4">
+                        <div class="pj2-img">
+                            <div class="pj2-dsc">
+                                <p>Visualiza código no <a href="https://github.com/Thawxn/Tabuada">Github</a></p>
+                            </div>
+                            <img src="imagens/AnalisadorDeNumero.png" alt="Quarto projeto" />
+                        </div>
+                        <div class="pj2-txt">
+                            Projeto simples, onde o JavaScript analisa os números de 1 a 100 que o usuário enviar, 
+                            e depois informa quantos números foram cadastrados, o maior valor informado, o menor valor 
+                            informado, a soma de todos os valores e a média de todos os valores.
+                            
+                            
+                        </div>
+                    </div>
+
+
+
+                </div>
+                <div id="section-rigth--certificado">
+                    <div class="certificados">
+                        <div class="certificado-um">
+                            <img src="imagens/LogísticaOperacional.jpg" alt="Curso Logística">
+                        </div>
+                        <div class="certificado-dois">
+                            <p>Em progresso curso pela Udemy <a href="https://www.udemy.com/course/formacao-nodejs/">Formação Node.js</a></p>
+                        </div>
+                        <div class="certificado-dois">
+                            <p>Em progresso curso pela Udemy <a href="https://www.udemy.com/course/inglesextremo/">Inglês Extremo</a></p>
+                        </div>
+                    </div>
+
+                </div>
+                
+                
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; ThawanMarques</p>
+    </footer>
+
+    <script src="JavaScript/script.js">
+
+    </script>
+</body>
+</html>
